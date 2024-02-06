@@ -22,7 +22,7 @@ public class Main {
 			// TODO Auto-generated method stub
 			
 			try {
-				System.out.println("Customer.dat is created at: " + new File("Customer.dat").getAbsolutePath());
+//				System.out.println("Customer.dat is created at: " + new File("Customer.dat").getAbsolutePath());
 				
 				Client client = Client.create();
 				WebResource webResource = client.resource("http://localhost:8092/hellohibernate/rest/services/customers/A");

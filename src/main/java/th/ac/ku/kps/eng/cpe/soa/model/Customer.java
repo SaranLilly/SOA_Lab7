@@ -1,5 +1,5 @@
 package th.ac.ku.kps.eng.cpe.soa.model;
-// Generated 6 ¡.¾. 2567 11:32:26 by Hibernate Tools 6.3.1.Final
+// Generated 6 ¡.¾. 2567 19:27:32 by Hibernate Tools 6.3.1.Final
 
 import java.util.HashSet;
 import java.util.Set;
