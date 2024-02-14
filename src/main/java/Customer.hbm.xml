@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-
+<!-- Generated 12 �.�. 2567 23:08:00 by Hibernate Tools 6.3.1.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-    <class catalog="soa" name="th.ac.ku.kps.eng.cpe.soa.model.Customer" optimistic-lock="none" table="customer">
+    <class catalog="soa" name="test.Customer" optimistic-lock="none" table="customer">
         <id name="cusId" type="java.lang.Integer">
             <column name="CUS_ID"/>
             <generator class="identity"/>
@@ -9,11 +9,20 @@
         <property name="name" type="string">
             <column length="255" name="NAME"/>
         </property>
-        <set fetch="select" inverse="true" lazy="false" name="phonenumbers" table="phonenumber">
+        <property name="username" type="string">
+            <column length="30" name="username" not-null="true"/>
+        </property>
+        <property name="pwd" type="string">
+            <column length="30" name="pwd" not-null="true"/>
+        </property>
+        <property name="userroles" type="string">
+            <column length="12" name="USERROLES"/>
+        </property>
+        <set fetch="select" inverse="false" lazy="false" name="phonenumbers" table="phonenumber">
             <key>
                 <column name="CUS_ID"/>
             </key>
-            <one-to-many class="th.ac.ku.kps.eng.cpe.soa.model.Phonenumber"/>
+            <one-to-many class="test.Phonenumber"/>
         </set>
     </class>
 </hibernate-mapping>
