@@ -1,12 +1,22 @@
 package th.ac.ku.kps.eng.cpe.soa.response.model;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
+
+
+import test.Customer;
 
 public class CustomerResponse {
 	private String status;
 	private String customer;
 	private String msg;
+	private Customer result;
+
+	public Customer getResult() {
+		return result;
+	}
+
+	public void setResult(Customer customer2) {
+		this.result = customer2;
+	}
 
 	public String getStatus() {
 		return status;

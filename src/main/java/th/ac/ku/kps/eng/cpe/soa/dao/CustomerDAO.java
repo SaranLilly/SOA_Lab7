@@ -15,6 +15,7 @@ import org.hibernate.query.Query;
 //import th.ac.ku.kps.eng.cpe.soa.model.Customer;
 import test.Customer;
 public class CustomerDAO {
+	
 	public ArrayList<Customer> getAllCustomers() {
 		Session session = SessionUtil.getSession();
 		Query query = session.createQuery("from Customer");

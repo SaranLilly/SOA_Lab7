@@ -10,7 +10,9 @@ import th.ac.ku.kps.eng.cpe.soa.dao.CustomerDAO;
 public class MethodMain {
 	public static void main(String[] args) throws SQLException {
 		CustomerDAO c = new CustomerDAO();
-		c.findCustomer("ttt");
+		c.findCustomer("somsri2");
+		for (Customer cs : c.getAllCustomers())
+			System.out.println(cs.getName());
 		//c.addCustomer(new Customer("S1","2","3","4", new HashSet<Phonenumber>()));
 		//for (Customer cs : c.getAllCustomers())
 		//	System.out.println(cs.getName());
