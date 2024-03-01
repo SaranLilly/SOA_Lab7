@@ -13,7 +13,7 @@ import org.hibernate.criterion.Restrictions;
 import org.hibernate.query.Query;
 
 //import th.ac.ku.kps.eng.cpe.soa.model.Customer;
-import test.Customer;
+import th.ac.ku.kps.eng.cpe.soa.model.Customer;
 public class CustomerDAO {
 	
 	public ArrayList<Customer> getAllCustomers() {

@@ -35,7 +35,7 @@ import th.ac.ku.kps.eng.cpe.soa.response.model.CommonResponse;
 import th.ac.ku.kps.eng.cpe.soa.response.model.CustomerResponse;
 
 //import th.ac.ku.kps.eng.cpe.soa.model.Customer;
-import test.Customer;
+import th.ac.ku.kps.eng.cpe.soa.model.Customer;
 
 @Path("/services")
 public class CustomerService {

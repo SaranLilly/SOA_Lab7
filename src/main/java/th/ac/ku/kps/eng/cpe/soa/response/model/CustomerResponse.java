@@ -2,7 +2,7 @@ package th.ac.ku.kps.eng.cpe.soa.response.model;
 
 
 
-import test.Customer;
+import th.ac.ku.kps.eng.cpe.soa.model.Customer;
 
 public class CustomerResponse {
 	private String status;

@@ -1,5 +1,5 @@
 package th.ac.ku.kps.eng.cpe.soa.model;
-// Generated 12 ก.พ. 2567 23:04:41 by Hibernate Tools 6.3.1.Final
+// Generated 1 มี.ค. 2567 23:59:11 by Hibernate Tools 6.3.1.Final
 
 import java.util.HashSet;
 import java.util.Set;
@@ -11,6 +11,7 @@ public class Customer implements java.io.Serializable {
 
 	private Integer cusId;
 	private String name;
+	private String sername;
 	private String username;
 	private String pwd;
 	private String userroles;
@@ -19,8 +20,9 @@ public class Customer implements java.io.Serializable {
 	public Customer() {
 	}
 
-	public Customer(String name, String username, String pwd, String userroles, Set phonenumbers) {
+	public Customer(String name, String sername, String username, String pwd, String userroles, Set phonenumbers) {
 		this.name = name;
+		this.sername = sername;
 		this.username = username;
 		this.pwd = pwd;
 		this.userroles = userroles;
@@ -41,6 +43,14 @@ public class Customer implements java.io.Serializable {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public String getSername() {
+		return this.sername;
+	}
+
+	public void setSername(String sername) {
+		this.sername = sername;
 	}
 
 	public String getUsername() {

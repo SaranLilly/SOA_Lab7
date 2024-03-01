@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.StringTokenizer;
 import th.ac.ku.kps.eng.cpe.soa.dao.CustomerDAO;
 //import th.ac.ku.kps.eng.cpe.soa.model.Customer;
-import test.Customer;
+import th.ac.ku.kps.eng.cpe.soa.model.Customer;
 import java.util.Base64;
 
 public class AuthService {

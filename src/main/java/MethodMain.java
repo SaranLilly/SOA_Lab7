@@ -2,8 +2,10 @@ import java.sql.SQLException;
 import java.util.HashSet;
 
 //import th.ac.ku.kps.eng.cpe.soa.model.Customer;
-import test.Customer;
-import test.Phonenumber;
+//import test.Customer;
+//import test.Phonenumber;
+import th.ac.ku.kps.eng.cpe.soa.model.Customer;
+import th.ac.ku.kps.eng.cpe.soa.model.Phonenumber;
 import th.ac.ku.kps.eng.cpe.soa.dao.CustomerDAO;
 //import th.ac.ku.kps.eng.cpe.soa.model.Phonenumber;
 
